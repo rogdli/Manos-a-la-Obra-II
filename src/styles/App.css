@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  font-family: 'Verdana', sans-serif;
+}
+
+.textBox{
+  display: flex;
+  align-items: center;
+}
+
+.textBox input{
+  border: 1px solid;
+  width : 285px;
+  height: 20px;
+  padding: 10px;
+}
+
+.textBox .addButton{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  margin-left: 10px; /*espacio entre add y barra de texto*/
+  width:60px;
+  height:40px;
+  font-size: 17px;
+  font-family: 'Verdana', sans-serif;
+  cursor: pointer;
+}
+
+.taskBox {
+  display:flex;
+  border: 1px solid;
+  width : 350px;
+  height: 24px;
+  align-items:center;
+  padding:10px;
+}
+
+.taskBox p{
+  margin-left: 10px;
+}
+
+.taskBox button{
+  margin-left:auto;
+  cursor: pointer;
+}
